@@ -44,23 +44,5 @@ df<-df%>%
   group_by(year_month, `match_invloving_teams_from:`)%>%
   mutate(total_matches_involving = n())
 
-  
-plot <- df[!is.na(df$`match_invloving_teams_from:`),]%>%
-  select()
-
-colnames(df)
-ggplot(plot, aes(x = plot$))
-
-
-plot$total_matches_involving
-
-
-#get games playes up to date 
-#get 
-
-
-ggplot( ,], aes(x = score1-score2))+
-  geom_point()+
-  facet_wrap(~month)
 
 
