@@ -13,7 +13,6 @@ def addDaysSinceGame(data):
     data['date'] = pandas.to_datetime(data['date'])
     data['daysSi/nce'] = today - data['date']
 
-
 #Main function
 def main():
     addDaysSinceGame(data)
